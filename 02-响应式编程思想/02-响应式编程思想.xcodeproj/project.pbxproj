@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAB076A1BB27E4500022EA9 /* XMGKVONotifying_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB07691BB27E4500022EA9 /* XMGKVONotifying_Person.m */; settings = {ASSET_TAGS = (); }; };
+		ECAB076D1BB27E6000022EA9 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB076C1BB27E6000022EA9 /* NSObject+KVO.m */; settings = {ASSET_TAGS = (); }; };
+		ECF29DB01BB2751C00D28E03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DAF1BB2751C00D28E03 /* main.m */; };
+		ECF29DB31BB2751C00D28E03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DB21BB2751C00D28E03 /* AppDelegate.m */; };
+		ECF29DB61BB2751C00D28E03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DB51BB2751C00D28E03 /* ViewController.m */; };
+		ECF29DB91BB2751C00D28E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF29DB71BB2751C00D28E03 /* Main.storyboard */; };
+		ECF29DBB1BB2751C00D28E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF29DBA1BB2751C00D28E03 /* Assets.xcassets */; };
+		ECF29DBE1BB2751C00D28E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF29DBC1BB2751C00D28E03 /* LaunchScreen.storyboard */; };
+		ECF29DC91BB2751C00D28E03 /* _2________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DC81BB2751C00D28E03 /* _2________Tests.m */; };
+		ECF29DD41BB2751C00D28E03 /* _2________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DD31BB2751C00D28E03 /* _2________UITests.m */; };
+		ECF29DE31BB2752B00D28E03 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF29DE21BB2752B00D28E03 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF29DC51BB2751C00D28E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF29DA31BB2751C00D28E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF29DAA1BB2751C00D28E03;
+			remoteInfo = "02-响应式编程思想";
+		};
+		ECF29DD01BB2751C00D28E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF29DA31BB2751C00D28E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF29DAA1BB2751C00D28E03;
+			remoteInfo = "02-响应式编程思想";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAB07681BB27E4500022EA9 /* XMGKVONotifying_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGKVONotifying_Person.h; sourceTree = "<group>"; };
+		ECAB07691BB27E4500022EA9 /* XMGKVONotifying_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGKVONotifying_Person.m; sourceTree = "<group>"; };
+		ECAB076B1BB27E6000022EA9 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		ECAB076C1BB27E6000022EA9 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		ECF29DAB1BB2751C00D28E03 /* 02-响应式编程思想.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-响应式编程思想.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF29DAF1BB2751C00D28E03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF29DB11BB2751C00D28E03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECF29DB21BB2751C00D28E03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECF29DB41BB2751C00D28E03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECF29DB51BB2751C00D28E03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECF29DB81BB2751C00D28E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF29DBA1BB2751C00D28E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF29DBD1BB2751C00D28E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF29DBF1BB2751C00D28E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF29DC41BB2751C00D28E03 /* 02-响应式编程思想Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-响应式编程思想Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF29DC81BB2751C00D28E03 /* _2________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2________Tests.m"; sourceTree = "<group>"; };
+		ECF29DCA1BB2751C00D28E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF29DCF1BB2751C00D28E03 /* 02-响应式编程思想UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-响应式编程思想UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF29DD31BB2751C00D28E03 /* _2________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2________UITests.m"; sourceTree = "<group>"; };
+		ECF29DD51BB2751C00D28E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF29DE11BB2752B00D28E03 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ECF29DE21BB2752B00D28E03 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF29DA81BB2751C00D28E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DC11BB2751C00D28E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DCC1BB2751C00D28E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF29DA21BB2751C00D28E03 = {
+			isa = PBXGroup;
+			children = (
+				ECF29DAD1BB2751C00D28E03 /* 02-响应式编程思想 */,
+				ECF29DC71BB2751C00D28E03 /* 02-响应式编程思想Tests */,
+				ECF29DD21BB2751C00D28E03 /* 02-响应式编程思想UITests */,
+				ECF29DAC1BB2751C00D28E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF29DAC1BB2751C00D28E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF29DAB1BB2751C00D28E03 /* 02-响应式编程思想.app */,
+				ECF29DC41BB2751C00D28E03 /* 02-响应式编程思想Tests.xctest */,
+				ECF29DCF1BB2751C00D28E03 /* 02-响应式编程思想UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF29DAD1BB2751C00D28E03 /* 02-响应式编程思想 */ = {
+			isa = PBXGroup;
+			children = (
+				ECF29DB11BB2751C00D28E03 /* AppDelegate.h */,
+				ECF29DB21BB2751C00D28E03 /* AppDelegate.m */,
+				ECF29DB41BB2751C00D28E03 /* ViewController.h */,
+				ECF29DB51BB2751C00D28E03 /* ViewController.m */,
+				ECF29DB71BB2751C00D28E03 /* Main.storyboard */,
+				ECF29DBA1BB2751C00D28E03 /* Assets.xcassets */,
+				ECF29DBC1BB2751C00D28E03 /* LaunchScreen.storyboard */,
+				ECF29DBF1BB2751C00D28E03 /* Info.plist */,
+				ECF29DAE1BB2751C00D28E03 /* Supporting Files */,
+				ECF29DE11BB2752B00D28E03 /* Person.h */,
+				ECF29DE21BB2752B00D28E03 /* Person.m */,
+				ECAB07681BB27E4500022EA9 /* XMGKVONotifying_Person.h */,
+				ECAB07691BB27E4500022EA9 /* XMGKVONotifying_Person.m */,
+				ECAB076B1BB27E6000022EA9 /* NSObject+KVO.h */,
+				ECAB076C1BB27E6000022EA9 /* NSObject+KVO.m */,
+			);
+			path = "02-响应式编程思想";
+			sourceTree = "<group>";
+		};
+		ECF29DAE1BB2751C00D28E03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF29DAF1BB2751C00D28E03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF29DC71BB2751C00D28E03 /* 02-响应式编程思想Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF29DC81BB2751C00D28E03 /* _2________Tests.m */,
+				ECF29DCA1BB2751C00D28E03 /* Info.plist */,
+			);
+			path = "02-响应式编程思想Tests";
+			sourceTree = "<group>";
+		};
+		ECF29DD21BB2751C00D28E03 /* 02-响应式编程思想UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF29DD31BB2751C00D28E03 /* _2________UITests.m */,
+				ECF29DD51BB2751C00D28E03 /* Info.plist */,
+			);
+			path = "02-响应式编程思想UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF29DAA1BB2751C00D28E03 /* 02-响应式编程思想 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF29DD81BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想" */;
+			buildPhases = (
+				ECF29DA71BB2751C00D28E03 /* Sources */,
+				ECF29DA81BB2751C00D28E03 /* Frameworks */,
+				ECF29DA91BB2751C00D28E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-响应式编程思想";
+			productName = "02-响应式编程思想";
+			productReference = ECF29DAB1BB2751C00D28E03 /* 02-响应式编程思想.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF29DC31BB2751C00D28E03 /* 02-响应式编程思想Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF29DDB1BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想Tests" */;
+			buildPhases = (
+				ECF29DC01BB2751C00D28E03 /* Sources */,
+				ECF29DC11BB2751C00D28E03 /* Frameworks */,
+				ECF29DC21BB2751C00D28E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF29DC61BB2751C00D28E03 /* PBXTargetDependency */,
+			);
+			name = "02-响应式编程思想Tests";
+			productName = "02-响应式编程思想Tests";
+			productReference = ECF29DC41BB2751C00D28E03 /* 02-响应式编程思想Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF29DCE1BB2751C00D28E03 /* 02-响应式编程思想UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF29DDE1BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想UITests" */;
+			buildPhases = (
+				ECF29DCB1BB2751C00D28E03 /* Sources */,
+				ECF29DCC1BB2751C00D28E03 /* Frameworks */,
+				ECF29DCD1BB2751C00D28E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF29DD11BB2751C00D28E03 /* PBXTargetDependency */,
+			);
+			name = "02-响应式编程思想UITests";
+			productName = "02-响应式编程思想UITests";
+			productReference = ECF29DCF1BB2751C00D28E03 /* 02-响应式编程思想UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF29DA31BB2751C00D28E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					ECF29DAA1BB2751C00D28E03 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					ECF29DC31BB2751C00D28E03 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ECF29DAA1BB2751C00D28E03;
+					};
+					ECF29DCE1BB2751C00D28E03 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ECF29DAA1BB2751C00D28E03;
+					};
+				};
+			};
+			buildConfigurationList = ECF29DA61BB2751C00D28E03 /* Build configuration list for PBXProject "02-响应式编程思想" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF29DA21BB2751C00D28E03;
+			productRefGroup = ECF29DAC1BB2751C00D28E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF29DAA1BB2751C00D28E03 /* 02-响应式编程思想 */,
+				ECF29DC31BB2751C00D28E03 /* 02-响应式编程思想Tests */,
+				ECF29DCE1BB2751C00D28E03 /* 02-响应式编程思想UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF29DA91BB2751C00D28E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF29DBE1BB2751C00D28E03 /* LaunchScreen.storyboard in Resources */,
+				ECF29DBB1BB2751C00D28E03 /* Assets.xcassets in Resources */,
+				ECF29DB91BB2751C00D28E03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DC21BB2751C00D28E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DCD1BB2751C00D28E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF29DA71BB2751C00D28E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF29DB61BB2751C00D28E03 /* ViewController.m in Sources */,
+				ECF29DB31BB2751C00D28E03 /* AppDelegate.m in Sources */,
+				ECAB076D1BB27E6000022EA9 /* NSObject+KVO.m in Sources */,
+				ECAB076A1BB27E4500022EA9 /* XMGKVONotifying_Person.m in Sources */,
+				ECF29DE31BB2752B00D28E03 /* Person.m in Sources */,
+				ECF29DB01BB2751C00D28E03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DC01BB2751C00D28E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF29DC91BB2751C00D28E03 /* _2________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF29DCB1BB2751C00D28E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF29DD41BB2751C00D28E03 /* _2________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF29DC61BB2751C00D28E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF29DAA1BB2751C00D28E03 /* 02-响应式编程思想 */;
+			targetProxy = ECF29DC51BB2751C00D28E03 /* PBXContainerItemProxy */;
+		};
+		ECF29DD11BB2751C00D28E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF29DAA1BB2751C00D28E03 /* 02-响应式编程思想 */;
+			targetProxy = ECF29DD01BB2751C00D28E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF29DB71BB2751C00D28E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF29DB81BB2751C00D28E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF29DBC1BB2751C00D28E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF29DBD1BB2751C00D28E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF29DD61BB2751C00D28E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECF29DD71BB2751C00D28E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF29DD91BB2751C00D28E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-响应式编程思想/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECF29DDA1BB2751C00D28E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-响应式编程思想/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECF29DDC1BB2751C00D28E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-响应式编程思想Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-响应式编程思想.app/02-响应式编程思想";
+			};
+			name = Debug;
+		};
+		ECF29DDD1BB2751C00D28E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-响应式编程思想Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-响应式编程思想.app/02-响应式编程思想";
+			};
+			name = Release;
+		};
+		ECF29DDF1BB2751C00D28E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-响应式编程思想UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-响应式编程思想";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECF29DE01BB2751C00D28E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-响应式编程思想UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinker.-2--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-响应式编程思想";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF29DA61BB2751C00D28E03 /* Build configuration list for PBXProject "02-响应式编程思想" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF29DD61BB2751C00D28E03 /* Debug */,
+				ECF29DD71BB2751C00D28E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF29DD81BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF29DD91BB2751C00D28E03 /* Debug */,
+				ECF29DDA1BB2751C00D28E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF29DDB1BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF29DDC1BB2751C00D28E03 /* Debug */,
+				ECF29DDD1BB2751C00D28E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF29DDE1BB2751C00D28E03 /* Build configuration list for PBXNativeTarget "02-响应式编程思想UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF29DDF1BB2751C00D28E03 /* Debug */,
+				ECF29DE01BB2751C00D28E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF29DA31BB2751C00D28E03 /* Project object */;
+}
